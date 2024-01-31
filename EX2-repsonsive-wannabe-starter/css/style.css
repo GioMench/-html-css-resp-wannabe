@@ -111,6 +111,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -129,14 +130,58 @@ img {
  ************************************************/
 
 
-@media screen and (max-width: 768px) 
-{
+@media screen and (max-width: 768px) {
 
-    .text-center{
-        width: 80%;
-        margin: auto;
-        text-align: center;
+    .container {
+        width: 100%;
     }
+}
+
+@media screen and (max-width: 480px) {
+
+    .container{
+        padding: 0;
+    }
+
+    h1{
+        font-size:3rem;
+    }
+
+    h2{
+        font-size: 2.5rem;
+    }
+   .row{
+    flex-direction: column;
+    align-items: center;
+   }
+
+
+   .row .col{
+    width: 90%;
+   }
+
+   .col{
+    margin-bottom: 60px;
+   }
+   
+   .steps{
+    margin: 0;
+    padding-bottom: 0;
+   }
+
+   .why-us{
+    background-color: #222222;
+    margin:0;
+    padding-top:60px ;
+}
+
+   li{
+    margin-bottom: 30px;
+   }
+  
+
+
+
 
 
 
