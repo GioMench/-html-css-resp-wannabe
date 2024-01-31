@@ -130,7 +130,7 @@ img {
  ************************************************/
 
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 1160px) {
 
     .container {
         width: 100%;
@@ -139,50 +139,49 @@ img {
 
 @media screen and (max-width: 480px) {
 
-    .container{
+    .container {
         padding: 0;
     }
 
-    h1{
-        font-size:3rem;
+    h1 {
+        font-size: 3rem;
     }
 
-    h2{
+    h2 {
         font-size: 2.5rem;
     }
-   .row{
-    flex-direction: column;
-    align-items: center;
-   }
 
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
 
-   .row .col{
-    width: 90%;
-   }
+    .row .col {
+        width: 90%;
+    }
 
-   .col{
-    margin-bottom: 60px;
-   }
-   
-   .steps{
-    margin: 0;
-    padding-bottom: 0;
-   }
+    .col {
+        margin-bottom: 60px;
+    }
 
-   .why-us{
-    background-color: #222222;
-    margin:0;
-    padding-top:60px ;
-}
+    .text-center {
+        margin-left: 20px;
+    }
 
-   li{
-    margin-bottom: 30px;
-   }
-  
+    .steps {
+        margin: 0;
+        padding-bottom: 0;
+    }
 
+    .why-us {
+        background-color: #222222;
+        margin: 0;
+        padding-top: 60px;
+    }
 
-
-
+    li {
+        margin-bottom: 30px;
+    }
 
 
 
